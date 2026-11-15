@@ -6,3 +6,6 @@ server: server.cpp
 
 client: client.cpp
 	clang++ -std=c++20 client.cpp -o client	&& ./client
+
+clean: 
+	rm server client 
